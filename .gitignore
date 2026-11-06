@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+
+# Data and run outputs (CUAD is cloned on first run; committed results live in results/)
+data/cuad/
+cuad_src/
+rag_outputs/
+runs/
+*.zip
+
+# Notebooks (research scratch, not part of the package)
+*.ipynb
+.ipynb_checkpoints/
+notebooks/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

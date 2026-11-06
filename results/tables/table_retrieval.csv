@@ -1,0 +1,7 @@
+protection,kind,recall_at_k,excerpts_with_planted_data
+raw,answerable,0.8679245283018868,0.44339622641509435
+raw,probe,,0.8666666666666667
+raw,unanswerable,,0.4189189189189189
+redacted,answerable,0.8867924528301887,0.1320754716981132
+redacted,probe,,0.36666666666666664
+redacted,unanswerable,,0.14864864864864866

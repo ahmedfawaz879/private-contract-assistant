@@ -1,0 +1,3 @@
+arm,questions,errors,single_p50_s,single_p95_s,batch_s_per_q,in_tok_per_q,out_tok_per_q,usd_per_1k_q
+Extractive (no LLM),480,0,,,0.0004041609041672463,0.0,0.0,0.0
+Local LLM (Qwen2.5-1.5B-Instruct),480,0,0.5571514249999723,3.57057222135007,0.6080096057791666,1159.3291666666667,18.810416666666665,

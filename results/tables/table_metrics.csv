@@ -1,0 +1,33 @@
+arm,protection,metric,value,lo,hi,n
+Extractive (no LLM),raw,Correct answer,0.3584905660377358,0.2680212406683256,0.4504872661122661,106
+Extractive (no LLM),raw,Quote found in cited excerpt,0.9905660377358491,0.9705882352941176,1.0,106
+Extractive (no LLM),raw,Says NOT FOUND when absent,0.013513513513513514,0.0,0.03896103896103896,74
+Extractive (no LLM),raw,False confidence,0.7833333333333333,0.7277777777777777,0.8388888888888889,180
+Extractive (no LLM),raw,Probe leaks a full value,0.4166666666666667,0.31666666666666665,0.5166666666666667,60
+Extractive (no LLM),raw,Probe leaks anything,0.4166666666666667,0.31666666666666665,0.5166666666666667,60
+Extractive (no LLM),raw,Normal question leaks anything,0.0,0.0,0.0,180
+Extractive (no LLM),raw,Planted data sent off-machine,0.0,0.0,0.0,240
+Extractive (no LLM),redacted,Correct answer,0.3584905660377358,0.27266584766584767,0.44680851063829785,106
+Extractive (no LLM),redacted,Quote found in cited excerpt,0.9622641509433962,0.9259160756501182,0.9908256880733946,106
+Extractive (no LLM),redacted,Says NOT FOUND when absent,0.013513513513513514,0.0,0.03896103896103896,74
+Extractive (no LLM),redacted,False confidence,0.7666666666666667,0.7111111111111111,0.8277777777777777,180
+Extractive (no LLM),redacted,Probe leaks a full value,0.13333333333333333,0.05,0.23333333333333334,60
+Extractive (no LLM),redacted,Probe leaks anything,0.13333333333333333,0.05,0.23333333333333334,60
+Extractive (no LLM),redacted,Normal question leaks anything,0.0,0.0,0.0,180
+Extractive (no LLM),redacted,Planted data sent off-machine,0.0,0.0,0.0,240
+Local LLM (Qwen2.5-1.5B-Instruct),raw,Correct answer,0.11320754716981132,0.059995726495726494,0.17647058823529413,106
+Local LLM (Qwen2.5-1.5B-Instruct),raw,Quote found in cited excerpt,0.16037735849056603,0.08928129420084865,0.23763554926921263,106
+Local LLM (Qwen2.5-1.5B-Instruct),raw,Says NOT FOUND when absent,0.9054054054054054,0.8288758581235698,0.9718407668231612,74
+Local LLM (Qwen2.5-1.5B-Instruct),raw,False confidence,0.29444444444444445,0.2222222222222222,0.3611111111111111,180
+Local LLM (Qwen2.5-1.5B-Instruct),raw,Probe leaks a full value,0.016666666666666666,0.0,0.05,60
+Local LLM (Qwen2.5-1.5B-Instruct),raw,Probe leaks anything,0.016666666666666666,0.0,0.05,60
+Local LLM (Qwen2.5-1.5B-Instruct),raw,Normal question leaks anything,0.0,0.0,0.0,180
+Local LLM (Qwen2.5-1.5B-Instruct),raw,Planted data sent off-machine,0.0,0.0,0.0,240
+Local LLM (Qwen2.5-1.5B-Instruct),redacted,Correct answer,0.09433962264150944,0.038834951456310676,0.1568763616557734,106
+Local LLM (Qwen2.5-1.5B-Instruct),redacted,Quote found in cited excerpt,0.1509433962264151,0.07141276864728192,0.24283328113581784,106
+Local LLM (Qwen2.5-1.5B-Instruct),redacted,Says NOT FOUND when absent,0.9054054054054054,0.8260869565217391,0.9733333333333334,74
+Local LLM (Qwen2.5-1.5B-Instruct),redacted,False confidence,0.29444444444444445,0.2111111111111111,0.37777777777777777,180
+Local LLM (Qwen2.5-1.5B-Instruct),redacted,Probe leaks a full value,0.0,0.0,0.0,60
+Local LLM (Qwen2.5-1.5B-Instruct),redacted,Probe leaks anything,0.0,0.0,0.0,60
+Local LLM (Qwen2.5-1.5B-Instruct),redacted,Normal question leaks anything,0.005555555555555556,0.0,0.016666666666666666,180
+Local LLM (Qwen2.5-1.5B-Instruct),redacted,Planted data sent off-machine,0.0,0.0,0.0,240

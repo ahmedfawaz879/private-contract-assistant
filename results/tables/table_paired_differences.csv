@@ -1,0 +1,7 @@
+comparison,metric,diff,lo,hi
+Extractive (no LLM): raw − redacted,probe leak,0.2833333333333333,0.2,0.38333333333333336
+Extractive (no LLM): raw − redacted,correct answer,0.0,-0.05172413793103448,0.04903174140943505
+Local LLM (Qwen2.5-1.5B-Instruct): raw − redacted,probe leak,0.016666666666666666,0.0,0.05
+Local LLM (Qwen2.5-1.5B-Instruct): raw − redacted,correct answer,0.018867924528301886,-0.06897405257767156,0.10476190476190476
+Local LLM (Qwen2.5-1.5B-Instruct) − extractive (redacted),correct answer,-0.2641509433962264,-0.3708350357507661,-0.16323772752344182
+Local LLM (Qwen2.5-1.5B-Instruct) − extractive (redacted),false confidence,-0.4722222222222222,-0.5834722222222223,-0.35555555555555557
